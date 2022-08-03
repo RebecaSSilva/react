@@ -1,0 +1,90 @@
+.main-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    height: 14%;
+}
+.wrapper-form label {
+    display: block;
+    color:#004597;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+.wrapper-form input {
+    display: block;
+    margin-bottom: 20px;
+    width: 60%;
+    background-color: #E8EFFE;
+    border-radius: 20px;
+    border: 0;
+    height: 20px;
+    padding: 20px;
+}
+.wrapper-form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 73%;
+    flex-direction: column;
+}
+.help-links a:first-child {
+    padding-right: 60px;
+}
+.btn-form {
+    border: 2px solid transparent;
+    background-color: #004597;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px 40px;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+}
+.btn-wrapper {
+    margin-top: 40px;
+}
+.btn-form:hover {
+   cursor: pointer;
+   border: 2px solid #004597;
+   color: #004597;
+   padding: 20px 40px;
+   background-color: #fff;
+}
+.vestibular-button {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.vestibular-button a {
+    display: flex;
+    background-color: #EFF4FF;
+    color: #004597;
+    padding: 5px 20px 5px 38px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.vestibular-button .icon-link-vestibular {
+    background-color: #D3E1FF;
+    position: absolute;
+    height: 30px;
+    top: 0;
+    width: 30px;
+    left: 0;
+    display: block;
+    border-radius: 10px;
+}
+.wrapper-icon {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-icon svg{
+    transform: rotate(40deg);
+    width: 18px;
+}
